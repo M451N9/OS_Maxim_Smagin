@@ -1,0 +1,29 @@
+# ======================== 
+# Скопированное из консоли 
+# ======================== 
+
+m451n9@m451n9-VirtualBox:~$ cd ~ && cd lab2 && ls && mkdir ABC && cd ABC && mkdir DEF && cd ~ && cp /home/m451n9/lab2/TEXT/text1.txt /home/m451n9/lab2/ABC/DEF && cd /home/m451n9/lab2/ && cat fio.txt inf.txt > myfile.inf && cd /home/m451n9/lab2/TEXT/KLMNO && cp file.my /home/m451n9/lab2/ABC/DEF && cd /home/m451n9/lab2/ABC/DEF/ && mv file.my copyfile.doc && ls && cd /home/m451n9/lab2 && tree -L 2
+fio.txt  inf.txt  myfile.inf  TEXT
+copyfile.doc  text1.txt
+locales-launch: Data of ru_RU locale not found, generating, please wait...
+.
+├── ABC
+│   └── DEF
+├── fio.txt
+├── inf.txt
+├── myfile.inf
+└── TEXT
+    ├── KLMNO
+    ├── text1.txt
+    ├── text2.txt
+    └── text3.txt
+
+4 directories, 6 files
+m451n9@m451n9-VirtualBox:~/lab2$ 
+
+
+# ================== 
+# мой ВВОД в консоль 
+# ================== 
+
+cd ~ && cd lab2 && ls && mkdir ABC && cd ABC && mkdir DEF && cd ~ && cp /home/m451n9/lab2/TEXT/text1.txt /home/m451n9/lab2/ABC/DEF && cd /home/m451n9/lab2/ && cat fio.txt inf.txt > myfile.inf && cd /home/m451n9/lab2/TEXT/KLMNO && cp file.my /home/m451n9/lab2/ABC/DEF && cd /home/m451n9/lab2/ABC/DEF/ && mv file.my copyfile.doc && ls && cd /home/m451n9/lab2 && tree -L 2

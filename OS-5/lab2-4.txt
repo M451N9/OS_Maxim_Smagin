@@ -1,0 +1,15 @@
+# ======================== 
+# Скопированное из консоли 
+# ======================== 
+
+m451n9@m451n9-VirtualBox:~$ cp /home/m451n9/lab2/ABC/DEF/copyfile.doc /home/m451n9/lab2 && cd /home/m451n9/lab2 && ls && mv copyfile.doc my.txt && ls
+ABC  copyfile.doc  fio.txt  inf.txt  myfile.inf  TEXT
+ABC  fio.txt  inf.txt  myfile.inf  my.txt  TEXT
+m451n9@m451n9-VirtualBox:~/lab2$ 
+
+
+# ================== 
+# мой ВВОД в консоль 
+# ================== 
+
+cp /home/m451n9/lab2/ABC/DEF/copyfile.doc /home/m451n9/lab2 && cd /home/m451n9/lab2 && ls && mv copyfile.doc my.txt && ls

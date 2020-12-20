@@ -1,0 +1,10 @@
+# ======================== 
+# Скопированное из консоли 
+# ======================== 
+
+
+# ================== 
+# мой ВВОД в консоль 
+# ================== 
+
+cd ~; ls;  mkdir lab1; ls && cd lab1 && mkdir K && cd K&& mkdir N && cd ~; cd lab1 && mkdir KL && cd KL && mkdir NL && cd NL && mkdir P && cd ~; cd lab1 && mkdir KM; ls; cd K && ls && cd ~ && cd lab1 && ls && cd KL && ls && cd NL && ls && cd ~ && cd lab1 && cd KM && ls

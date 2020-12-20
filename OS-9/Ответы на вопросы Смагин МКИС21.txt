@@ -1,0 +1,18 @@
+1
+"program 2>" и "program 2>>"
+
+2
+Они будут выведенны на коноль
+
+3
+В /home/alex/1.jpg
+
+3
+Для этого нужно написать "wget -q" или "wget --quiet"
+
+4
+Будут скачаны jpg, robot`ы и html-файлы, причём все html будут удалены а png проигнорированы.
+
+5
+cd ~ && mkdir box && cd box && wget https://stepik.org/media/attachments/course73/quiz_archive.tar.gz && ls
+tar xf quiz_archive.tar.gz

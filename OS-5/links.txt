@@ -1,0 +1,4 @@
+https://proglib.io/p/bash-commands-for-beginners/
+https://tproger.ru/translations/bash-cheatsheet/
+https://habr.com/ru/post/481398/
+http://linux-bash.ru/mcommand.html

@@ -1,0 +1,27 @@
+=== Ubuntu 1 ===
+cd ~ && mkdir lab7
+
+python3 -m-venv home/m451n9/lab7
+source <home/m451n9/lab7/Bin/activate>
+pip install requests
+pip install jupyter
+
+=== Ubuntu 2 ===
+
+sudo apt update
+sudo apt upgrade
+sudo apt install python3-minimal
+python3 -V
+pip3 install --user virtualenv virtualenvwrapper
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source ~/.local/bin/virtualenvwrapper.sh
+
+export VIRTUALENVWRAPPER_PYTHON=/home/m451n9/lab7/bin/python3
+source ~/lab7/.local/bin/virtualenvwrapper.sh
+
+=== Windows ===
+
+python3 -m venv D:\Python
+D:\Python\Scripts\activate.bat
+pip install requests
+D:\Python\Scripts\deactivate.bat

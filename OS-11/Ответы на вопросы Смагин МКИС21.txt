@@ -1,0 +1,39 @@
+1
+	1 "Хранение больших объемов данных";
+	2 "Выполнение сложных (затратных по памяти и времени) вычислений";
+	3 "Хранение конфиденциальных данных (т.е. доступ к ним должны иметь
+только ограниченный круг лиц)";
+	4 "Хранение общедоступных данных (например, доступных для всех
+пользователей интернета)".
+	
+	Ответ: 1, 2, 3 и 4. Все ответы верны.
+	
+2
+	Ответ: 4 "id_rsa.pub"
+	
+3
+	Шаг 1. ssh box@server1.stepik-local // Вход на сервер
+		// The authenticity of host 'server1.stepik-local (10.42.126.1)' can't be established.     
+		// ECDSA key fingerprint is SHA256:kqfRJFWOvKjxQ8zhKYiq2aFi2TaP9jh//VNMljazLis.    
+		// Are you sure you want to continue connecting (yes/no)?
+		// yes
+	Шаг 2. supersecret // Ввод пароля
+		// Welcome to Ubuntu 18.04 LTS (GNU/Linux 4.19.95-coreos x86_64)
+		//
+		//  ______________________________________  
+		//  < Oh wow, you're on the remote server! > 
+		//  --------------------------------------                                         
+		//        \   ^__^                                                                
+		//         \  (oo)\_______                                                        
+		//            (__)\       )\/\                                                    
+		//                ||----w |                                                       
+		//                ||     ||                                                       
+		//                                                                                
+		// Last login: Sun Dec 20 14:25:38 2020 from 10.42.51.183                          
+		// -bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)      
+	Шаг 3. cat /srv/files_on_server/secret // Вывод содержимого файла в консоль
+		// I hacked ssh!
+	Шаг 4. exit // Выход с сервера
+		// logout
+		// Connection to server1.stepik-local closed.
+	Шаг 5. echo "I hacked ssh!" > /home/box/secret // Запись текста в локальный файл

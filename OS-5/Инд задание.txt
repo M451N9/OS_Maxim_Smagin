@@ -1,0 +1,11 @@
+Задание 2. В N создать два файла с расширением .txt, и 1 файл в NL с расширением .doc . Затем "склеить" все эти файлы в файл my.dat. my.dat должен находиться в LAB1. Переименовать файлы с расширением .txt в .cpp . Вывести содержимое файла my.dat в консоль
+
+cd ~ && mkdir lab5 && cd lab5 && mkdir NL && cd NL && nano 123.doc
+123
+cd /home/m451n9/lab5 && nano B.txt
+B
+cd /home/m451n9/lab5 && nano N.txt
+N
+cd /home/m451n9/lab5 && ls && cd NL && ls && cp /home/m451n9/lab5/NL/123.doc /home/m451n9/lab5/my.dat && cd /home/m451n9/lab5/NL && ls && rm 123.doc && ls
+cd /home/m451n9/lab5 && cp *.txt *.cpp
+cd /home/m451n9/lab5 && head my.dat

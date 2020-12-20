@@ -1,0 +1,51 @@
+# ======================== 
+# Скопированное из консоли 
+# ======================== 
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+m451n9@m451n9-VirtualBox:~$ cd ~ && ls && mkdir lab2 && ls && cd lab2; mkdir TEXT && cd TEXT && nano text1.txt
+ lab1   TEXT    Документы   Изображения   Общедоступные   Шаблоны
+ snap   Видео   Загрузки    Музыка       'Рабочий стол'
+ lab1   snap   Видео       Загрузки      Музыка         'Рабочий стол'
+ lab2   TEXT   Документы   Изображения   Общедоступные   Шаблоны
+m451n9@m451n9-VirtualBox:~/lab2/TEXT$ nano text2.txt
+m451n9@m451n9-VirtualBox:~/lab2/TEXT$ nano text3.txt
+m451n9@m451n9-VirtualBox:~/lab2/TEXT/KLMNO$ cd .. && cd .. && nano fio.txt
+m451n9@m451n9-VirtualBox:~/lab2$ nano inf.txt
+m451n9@m451n9-VirtualBox:~/lab2$ 
+
+
+# ======================= 
+# мой ВВОД + текст в nano 
+# ======================= 
+
+cd ~ && ls && mkdir lab2 && ls && cd lab2; mkdir TEXT && cd TEXT && nano text1.txt
+
+12345. Это текст первого файла
+
+nano text2.txt
+
+6789. Это текст второго файла
+
+nano text3.txt
+
+11011. Это текст третьего файла
+
+mkdir KLMNO && cd KLMNO && nano file.my
+
+Ночь, улица, фонарь, аптека,
+Бессмысленный и тусклый свет.
+Живи еще хоть четверть века -
+Все будет так. Исхода нет.
+
+Умрешь - начнешь опять сначала
+И повторится все, как встарь:
+Ночь, ледяная рябь канала,
+Аптека, улица, фонарь.
+
+cd .. && cd .. && nano fio.txt
+Смагин Максим Валентинович
+nano inf.txt
+МКИС21, "Медиакоммуникации и мультимедийные технологии" (МКиМТ), 01.12.2020

@@ -1,0 +1,25 @@
+# ========================
+# Скопированное из консоли
+# ========================
+
+m451n9@m451n9-VirtualBox:~$ rmdir /home/m451n9/lab2/TEXT/KLMNO && cd /home/m451n9/lab2/ && rmdir TEXT && cd /home/m451n9/lab2/ && tree -L 4
+.
+в”њв”Ђв”Ђ ABC
+в”‚В В  в””в”Ђв”Ђ DEF
+в”‚В В      в””в”Ђв”Ђ text1.txt
+в”њв”Ђв”Ђ CDE
+в”‚В В  в””в”Ђв”Ђ FGH
+в”‚В В      в””в”Ђв”Ђ all.txt
+в”њв”Ђв”Ђ fio.txt
+в”њв”Ђв”Ђ inf.txt
+в”њв”Ђв”Ђ myfile.inf
+в””в”Ђв”Ђ my.txt
+
+4 directories, 6 files
+m451n9@m451n9-VirtualBox:~/lab2$ 
+
+# ==================
+# мой ВВОД в консоль
+# ==================
+
+rmdir /home/m451n9/lab2/TEXT/KLMNO && cd /home/m451n9/lab2/ && rmdir TEXT && cd /home/m451n9/lab2/ && tree -L 4

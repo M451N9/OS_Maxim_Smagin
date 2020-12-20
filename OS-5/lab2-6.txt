@@ -1,0 +1,43 @@
+# ======================== 
+# ������������� �� ������� 
+# ======================== 
+
+m451n9@m451n9-VirtualBox:~$ mkdir /home/m451n9/lab2/CDE && cd /home/m451n9/lab2/CDE && mkdir FGH && cp /home/m451n9/lab2/TEXT/*.txt /home/m451n9/lab2/CDE/FGH && cd /home/m451n9/lab2/ && tree -L 4 && mv /home/m451n9/lab2/CDE/FGH/*.* *.old && cat text1.old text2.old text3.old > all.txt && cd /home/m451n9/lab2/CDE/FGH/ && ls && rm *.old && ls
+.
+├── ABC
+│   └── DEF
+│       └── text1.txt
+├── CDE
+│   └── FGH
+│       ├── text1.txt
+│       ├── text2.txt
+│       └── text3.txt
+├── fio.txt
+├── inf.txt
+├── myfile.inf
+├── my.txt
+└── TEXT
+    ├── KLMNO
+    │   └── file.my
+    ├── text1.txt
+    ├── text2.txt
+    └── text3.txt
+
+6 directories, 12 files
+mv: указанная цель '*.old' не является каталогом
+m451n9@m451n9-VirtualBox:~/lab2$ cd /home/m451n9/lab2/CDE/FGH/ && mv /home/m451n9/lab2/CDE/FGH/*.* /home/m451n9/lab2/CDE/FGH/*.old && cat text1.old text2.old text3.old > all.txt && cd /home/m451n9/lab2/CDE/FGH/ && ls && rm *.old && ls
+mv: указанная цель '/home/m451n9/lab2/CDE/FGH/*.old' не является каталогом
+m451n9@m451n9-VirtualBox:~/lab2/CDE/FGH$ cd /home/m451n9/lab2/CDE/FGH/ && mv *.* *.old && cat text1.old text2.old text3.old > all.txt && cd /home/m451n9/lab2/CDE/FGH/ && ls && rm *.old && ls
+mv: указанная цель '*.old' не является каталогом
+m451n9@m451n9-VirtualBox:~/lab2/CDE/FGH$ cd /home/m451n9/lab2/CDE/FGH/ && mv *.* *.old && cat text1.txt text2.txt text3.txt > all.txt && cd /home/m451n9/lab2/CDE/FGH/ && ls && rm text1.txt text2.txt text3.txt && ls
+mv: указанная цель '*.old' не является каталогом
+m451n9@m451n9-VirtualBox:~/lab2/CDE/FGH$ cd /home/m451n9/lab2/CDE/FGH/ && cat text1.txt text2.txt text3.txt > all.txt && cd /home/m451n9/lab2/CDE/FGH/ && ls && rm text1.txt text2.txt text3.txt && ls
+all.txt  text1.txt  text2.txt  text3.txt
+all.txt
+
+
+# ================== 
+# ��� ���� � ������� 
+# ================== 
+
+mkdir /home/m451n9/lab2/CDE && cd /home/m451n9/lab2/CDE && mkdir FGH && cp /home/m451n9/lab2/TEXT/*.txt /home/m451n9/lab2/CDE/FGH && cd /home/m451n9/lab2/ && tree -L 4 && mv /home/m451n9/lab2/CDE/FGH/*.* *.old && cat text1.old text2.old text3.old > all.txt && cd /home/m451n9/lab2/CDE/FGH/ && ls && rm *.old && ls

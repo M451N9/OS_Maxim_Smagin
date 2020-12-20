@@ -1,0 +1,15 @@
+cd ~ && mkdir lab6 && cd lab6 && nano Endless_cycle.py
+
+n = 1
+
+while n==1:
+    a = 1
+print('The cycle is over')
+
+Ctrl+O
+Enter
+Ctrl+X
+
+sudo chmod + Endless_cycle.py
+15Aff18
+python./Endless_cycle.py
